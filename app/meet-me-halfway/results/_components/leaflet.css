@@ -1,0 +1,46 @@
+/* Import Leaflet CSS */
+@import 'leaflet/dist/leaflet.css';
+
+/* Custom Leaflet CSS */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.375rem;
+}
+
+.leaflet-control-container .leaflet-routing-container-hide {
+  display: none;
+}
+
+.poi-popup h3 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.poi-popup p {
+  margin: 2px 0;
+}
+
+.custom-div-icon {
+  background: transparent;
+  border: none;
+}
+
+.custom-poi-icon {
+  background: transparent;
+  border: none;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 0.375rem;
+}
+
+.leaflet-popup-content {
+  margin: 12px 16px;
+  line-height: 1.4;
+}
+
+/* Fix for default marker icons */
+.leaflet-default-icon-path {
+  background-image: url('/leaflet/marker-icon.png');
+} 
